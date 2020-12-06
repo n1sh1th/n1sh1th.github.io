@@ -170,7 +170,8 @@ To delete Image first delete all the containers associated with image and run ab
 
 ---
 
-##Conclusion:
+## Conclusion:
+
 The blog post is a beginner's guide for quickstart on how to work with docker. Get your hands dirty and get going. I enjoyed writing this article and hope that you enjoyed reading it.
 
 Hack the planet :-)
