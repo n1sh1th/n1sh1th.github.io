@@ -1,0 +1,55 @@
+baseURL = "https://n1sh1th.github.io/"
+languageCode = "en-us"
+title = "Nishith's Blog"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Nishith K - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+#googleAnalytics = "UA-1XXXXXXX1-1"
+
+[params]
+  logo = "/images/logo.jpg"
+  #description ="the clean blog!"
+  #mailchimp = "you can provide a mailchimp-link here"
+
+[params.author]
+  name = "Nishith K"
+  thumbnail = "/images/author.png"
+  #description = "Security Enthusiast"
+
+[params.index]
+  picture = "/images/author.jpg"
+  title = "Nishith Khadadiya"
+  subtitle = "Security Enthusiast"
+  mdtext = '''
+This blog is about what I work day to day basis. Still figuring out ways how things work and can be seen banging head against walls. Feel free to DM me on Twitter if you would like to have a chat.\
+**Security Analyst @Net-Square | Keen Learner**
+'''
+  alertbar = true
+
+[params.social]
+  github = "n1sh1th"
+  linkedin = "nishithkhadadiya"
+  #xing = "<username>"
+  #medium = "<username>"
+  twitter = "busk3r"
+  #instagram = "<username>"
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+#[[menu.main]]
+#    name = "Imprint"
+#    identifier = "imprint"
+#    weight = 200
+#    url = "/static/imprint"

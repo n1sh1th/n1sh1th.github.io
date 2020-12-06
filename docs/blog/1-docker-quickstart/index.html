@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="generator" content="Hugo 0.77.0" />
+	
+	<link rel="icon" href="/images/logo.jpg">
+	
+	<title>Docker Quickstart | Nishith&#39;s Blog</title>
+	
+	
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Docker Quickstart"/>
+<meta name="twitter:description" content="What is Docker? Docker is an opensource tool used to easily deploy applications in sandbox environments called containers. In a docker container we can run different tools to do specific job."/>
+
+	<meta property="og:title" content="Docker Quickstart" />
+<meta property="og:description" content="What is Docker? Docker is an opensource tool used to easily deploy applications in sandbox environments called containers. In a docker container we can run different tools to do specific job." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://n1sh1th.github.io/blog/1-docker-quickstart/" />
+<meta property="article:published_time" content="2020-11-20T11:17:14+05:30" />
+<meta property="article:modified_time" content="2020-11-20T18:55:29+05:30" />
+
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="/css/medium.css" rel="stylesheet">
+	<link href="/css/additional.css" rel="stylesheet">
+
+	
+	
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        
+        <a class="navbar-brand" href="https://n1sh1th.github.io//">
+
+            
+            <img src="/images/logo.jpg" alt="logo">
+            
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            
+            <ul class="navbar-nav ml-auto">
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">About Me</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+        <div class="site-content">   
+            <div class="container">
+<div class="mainheading">
+    <h1 class="sitetitle">Nishith&#39;s Blog</h1>
+    <p class="lead">
+         
+    </p>
+</div><div class="main-content">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 pl-0"><div class="share sticky-top sticky-top-offset">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Docker%20Quickstart&url=https%3a%2f%2fn1sh1th.github.io%2fblog%2f1-docker-quickstart%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <i class="fab fa-twitter"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fn1sh1th.github.io%2fblog%2f1-docker-quickstart%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fn1sh1th.github.io%2fblog%2f1-docker-quickstart%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <i class="fab fa-xing"></i>
+        </a>
+        </li>        
+    </ul>
+
+    
+</div>
+</div>
+                                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                        
+                        
+                        	
+                        
+                                                
+                        
+                        <h1 class="posttitle">Docker Quickstart</h1> 
+                    </div>
+
+                    
+                    
+                    
+                    
+
+                    
+                    <div class="article-post">
+                        <h2 id="what-is-docker">What is Docker?</h2>
+<p>Docker is an opensource tool used to easily deploy applications in sandbox environments called <em>containers</em>. In a docker container we can run different tools to do specific job.</p>
+<hr>
+<h2 id="what-is-container">What is Container?</h2>
+<p>Container is standard unit of softeare that packages up the code and dependencies so that application runs quickly and reliably from one machine to another. Containers are small, fast, and portable because unlike a virtual machine, containers do not need include a guest OS in every instance and can, instead, simply leverage the features and resources of the host OS.</p>
+<hr>
+<h2 id="containers-vs-vm">Containers vs VM</h2>
+<p><img src="/images/blog/containers-101.png" alt="containers-vm" title="Containers-VM"></p>
+<p>A virtual machine (VM) is an emulation of a computer system. It makes it possible to run what appear to be many separate computers on hardware that is actually one computer. The operating systems (OS) and their applications share hardware resources from a single host server, or from a pool of host servers.</p>
+<p>With containers, instead of virtualizing the underlying computer like a virtual machine (VM), just the OS is virtualized.</p>
+<p>Containers sit on top of a physical server and its host OS — typically Linux or Windows. Each container shares the host OS kernel and, usually, the binaries and libraries, too. Shared components are read-only. At a high level, Docker is a Linux utility that can efficiently create, ship, and run containers.</p>
+<hr>
+<h2 id="why-containers">Why Containers?</h2>
+<p><img src="/images/blog/why-containers.png" alt="why-containers" title="Why Containers"></p>
+<p>Docker solves multiple problem. You must have always heard the developers arguing about the code which works at their system but always fail to work in production environment. Container solves following mentioned problems which  <a href="https://twitter.com/b0rk" title="Julia Evans">Julia Evans</a> has mentioned precisely in her <a href="https://wizardzines.com/" title="Zines">zines</a>. (I recommend everyone to check her awesome work)</p>
+<ol>
+<li>Dependency issues in building softwares</li>
+<li>Issues in deploying softwares</li>
+</ol>
+<hr>
+<h2 id="docker-terminology">Docker Terminology</h2>
+<h4 id="images">Images</h4>
+<p>The blueprints of our application which form the basis of containers. A package with all the dependencies and information needed to create a container. An image includes all the dependencies (such as frameworks) plus deployment and execution configuration to be used by a container runtime.</p>
+<h4 id="containers">Containers</h4>
+<p>An instance of a Docker image. A container represents the execution of a single application, process, or service. It consists of the contents of a Docker image, an execution environment, and a standard set of instructions.</p>
+<h4 id="docker-daemon">Docker Daemon</h4>
+<p>Background service running on the host that manages building, running and distributing Docker containers.</p>
+<h4 id="docker-client">Docker Client</h4>
+<p>The command line tool that allows the user to interact with the daemon.</p>
+<h4 id="docker-hub">Docker Hub</h4>
+<p>A public registry to upload images and work with them. Docker Hub provides Docker image hosting, public or private registries, build triggers and web hooks, and integration with GitHub and Bitbucket.</p>
+<hr>
+<h2 id="docker-architecture">Docker Architecture</h2>
+<p><img src="/images/blog/docker-arch.png" alt="docker-arch" title="Docker Architecture"></p>
+<hr>
+<h2 id="examples">Examples</h2>
+<p>I know you are bored now reading all the internal stuff mentioned. Let&rsquo;s make things bit exciting. Let&rsquo;s start with some practicle examples and understand few commands.</p>
+<h5 id="hello-world">Hello world</h5>
+<p><img src="/images/blog/1-hello-world.png" alt="hello-world" title="Hello-World"></p>
+<p><code>$ docker run hello-world</code></p>
+<p>Above command will run hello-world image which is specifically designed for understanding the docker flow.</p>
+<h5 id="pulling-docker-images-from-dockerhub">Pulling Docker images from DockerHub</h5>
+<p><img src="/images/blog/2-docker-pull.png" alt="docker-pull" title="Docker-pull"></p>
+<p><code>$ docker pull busybox</code></p>
+<p>The pull command fetches the busybox image from the Docker registry and saves it to our system</p>
+<h5 id="list-docker-images">List Docker Images</h5>
+<p><img src="/images/blog/3-docker-image.png" alt="docker-pull" title="Docker-images"></p>
+<p><code>$ docker images</code></p>
+<p>Use the docker images command to see a list of all images on your system.</p>
+<h5 id="running-docker-containers">Running Docker Containers</h5>
+<p><img src="/images/blog/4-docker-run.png" alt="docker-run" title="Docker-run"></p>
+<p><code>$ docker run busybox</code></p>
+<p>Docker client finds the image, loads up the container and then runs a command in that container.</p>
+<p><img src="/images/blog/5-docker-run-2.png" alt="docker-run-2" title="Docker-run-2"></p>
+<p><code>$ docker run busybox echo &quot;hello from busk3r&quot;</code></p>
+<p>When we run docker run, we didn&rsquo;t provide a command, so the container booted up, ran an empty command and then exited. To run a command inside container fire above command.</p>
+<h5 id="listing-docker-containers">Listing Docker Containers</h5>
+<p><img src="/images/blog/6-docker-ps-1.png" alt="docker-ps-1" title="Docker-ps-1"></p>
+<p><code>$ docker ps</code></p>
+<p>The docker ps command shows you all containers that are currently running.</p>
+<p><img src="/images/blog/7-docker-ps-2.png" alt="docker-ps-2" title="Docker-ps-2"></p>
+<p><code>$ docker ps -a</code></p>
+<p>Above command will list of all containers that we ran.</p>
+<h5 id="getting-shell-inside-container">Getting shell inside Container</h5>
+<p><img src="/images/blog/8-run-it.png" alt="docker-run-it" title="Docker-run-it"></p>
+<p><code>$ docker run -it busybox sh</code></p>
+<p>Running the run command with the -it flags attaches us to an interactive tty in the container. We can run multiple commands in shell.</p>
+<h5 id="deleting-containers">Deleting Containers</h5>
+<p><img src="/images/blog/9-docker-rm.png" alt="docker-rm" title="docker-rm"></p>
+<p><code>$ docker rm &lt;id&gt;</code></p>
+<h5 id="deleting-containers-when-stopping-containers">Deleting Containers when stopping containers</h5>
+<p><img src="/images/blog/11-docker-rm.png" alt="docker-rm" title="docker-rm"></p>
+<p><code>$ docker run -it --rm busybox sh</code></p>
+<p>Delete the docker images when exit with &ndash;rm</p>
+<h5 id="deleting-images">Deleting Images</h5>
+<p><img src="/images/blog/10-docker-rmi.png" alt="docker-rmi" title="docker-rmi"></p>
+<p><code>$ docker rmi busybox</code></p>
+<p>To delete Image first delete all the containers associated with image and run above command.</p>
+<hr>
+<h2 id="references">References:</h2>
+<ol>
+<li><a href="https://www.backblaze.com/blog/vm-vs-containers/">https://www.backblaze.com/blog/vm-vs-containers/</a></li>
+<li><a href="https://wizardzines.com/">https://wizardzines.com/</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/docker-terminology">https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/docker-terminology</a></li>
+<li><a href="https://docs.docker.com/get-started/overview/">https://docs.docker.com/get-started/overview/</a></li>
+</ol>
+
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        <li>
+                        <a href="/tags/devops">DevOps</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/tags/containers">Containers</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/tags/docker">Docker</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+
+
+            </div>
+<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+			<div class="d-md-flex align-items-center justify-content-center h-100">
+				<h2 class="d-md-block d-none align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
+			</div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+			
+			<a class="mt-1 mb-1" href="/tags/containers">containers</a>
+			
+			<a class="mt-1 mb-1" href="/tags/devops">devops</a>
+			
+			<a class="mt-1 mb-1" href="/tags/docker">docker</a>
+			
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                &copy; Copyright Nishith K - All rights reserved
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+        </div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="/js/mediumish.js"></script>
+
+    </body>
+</html>
