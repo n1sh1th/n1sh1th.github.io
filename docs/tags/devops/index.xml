@@ -7,14 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nishith K - All rights reserved</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 15:25:19 +0530</lastBuildDate><atom:link href="https://n1sh1th.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 15:25:19 +0530</lastBuildDate><atom:link href="https://n1sh1th.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker Quickstart</title>
       <link>https://n1sh1th.github.io/blog/1-docker-quickstart/</link>
-      <pubDate>Fri, 20 Nov 2020 15:25:19 +0530</pubDate>
+      <pubDate>Sun, 06 Dec 2020 15:25:19 +0530</pubDate>
       
       <guid>https://n1sh1th.github.io/blog/1-docker-quickstart/</guid>
-      <description>What is Docker? Docker is an opensource tool used to easily deploy applications in sandbox environments called containers. In a docker container we can run different tools to do specific job.</description>
+      <description>Introduction Hello everyone!
+As a pentester by profession, I usually have to deal with different environments. Sometimes compiling tools which has some nasty dependencies and failing to build or want to generate a poc for specific environment or creating CTFs.</description>
     </item>
     
   </channel>

@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://n1sh1th.github.io/static/imprint/</loc>
-    <lastmod>2018-10-07T11:12:00+02:00</lastmod>
+    <loc>https://n1sh1th.github.io/blog/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n1sh1th.github.io/tags/containers/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n1sh1th.github.io/tags/devops/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n1sh1th.github.io/tags/docker/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n1sh1th.github.io/blog/1-docker-quickstart/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://n1sh1th.github.io/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n1sh1th.github.io/tags/</loc>
+    <lastmod>2020-12-06T18:55:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://n1sh1th.github.io/static/imprint/</loc>
     <lastmod>2018-10-07T11:12:00+02:00</lastmod>
   </url>
   
@@ -19,10 +49,6 @@
   
   <url>
     <loc>https://n1sh1th.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://n1sh1th.github.io/tags/</loc>
   </url>
   
 </urlset>

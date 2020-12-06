@@ -7,6 +7,15 @@ tags: ["DevOps","Containers","Docker"]
 type: "post"
 comments: false
 ---
+
+## Introduction
+
+Hello everyone!
+
+As a pentester by profession, I usually have to deal with different environments. Sometimes compiling tools which has some nasty dependencies and failing to build or want to generate a poc for specific environment or creating CTFs. Docker always comes handy in such situations. So here is beginners guide on how to start with docker and get some familiarity with the commands.
+
+---
+
 ## What is Docker?
 Docker is an opensource tool used to easily deploy applications in sandbox environments called *containers*. In a docker container we can run different tools to do specific job. 
 
@@ -158,6 +167,13 @@ Delete the docker images when exit with --rm
 `$ docker rmi busybox`
 
 To delete Image first delete all the containers associated with image and run above command.
+
+---
+
+##Conclusion:
+The blog post is a beginner's guide for quickstart on how to work with docker. Get your hands dirty and get going. I enjoyed writing this article and hope that you enjoyed reading it.
+
+Hack the planet :-)
 
 ---
 
